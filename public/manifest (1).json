@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "description": "Vavet — A intelligent hydration companion. Track water intake and stay perfectly hydrated every day.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Vavet",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "vavet-app",
+  "start_url": "https://vavet-app.vercel.app/",
+  "theme_color": "#0d1f3c",
+  "icons": [
+    {
+      "src": "https://vavet-app.vercel.app/favicon.svg",
+      "type": "image/svg+xml",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "vavet-app"
+}
