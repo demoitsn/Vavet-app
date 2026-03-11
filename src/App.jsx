@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { AppProvider, useApp } from './context/AppContext'
 import { Navigation } from './components/Navigation'
 import { ToastContainer } from './components/Toast'
@@ -99,6 +100,7 @@ export default function App() {
   return (
     <AppProvider>
       <AppInner />
+      <SpeedInsights />
     </AppProvider>
   )
 }
