@@ -4,9 +4,9 @@ import { Plus, Minus } from 'lucide-react'
 
 const PRESET_AMOUNTS = [
   { label: 'Sip', amount: 100, icon: '💧' },
-  { label: 'Glass', amount: 250, icon: '🥛' },
+  { label: 'Glass', amount: 250, icon: '💦' },
   { label: 'Bottle', amount: 500, icon: '🍶' },
-  { label: 'Large', amount: 750, icon: '🫗' },
+  { label: 'Large', amount: 750, icon: '🌊' },
 ]
 
 function RippleButton({ onClick, children, className, style }) {
